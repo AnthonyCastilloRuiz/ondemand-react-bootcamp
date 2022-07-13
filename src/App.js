@@ -1,28 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-import { useFeaturedBanners } from './utils/hooks/useFeaturedBanners';
+// import { useFeaturedBanners } from './utils/hooks/useFeaturedBanners';
+
+
+// import products from './data/products.json';
+import { Header } from './components/Header';
+import { Slider } from './components/Slider';
+import { Carousel } from './components/Carousel';
+import { Grid } from './components/Grid';
+import { Footer } from './components/Footer';
 
 function App() {
-  const { data, isLoading } = useFeaturedBanners();
-  console.log(data, isLoading);
+  //const { data, isLoading } = useFeaturedBanners();
+
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header/>   
+      <Slider/>
+      <Carousel/>
+      <Grid/>
+      <Footer/>
+
+    </>
   );
 }
 
