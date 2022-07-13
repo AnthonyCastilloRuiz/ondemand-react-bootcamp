@@ -28,7 +28,6 @@ export const Header = () => {
                     value={message}
                 />
 
-
                 <img className='carritoLogo' src={logoCart} alt="carrito" href="#news"/>
             </div>
         </div>
