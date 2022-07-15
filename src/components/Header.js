@@ -3,6 +3,7 @@ import '../estilos/Header.css';
 import logoUrl from '../../src/WizelineBootCamp.png';
 import logoCart from '../../src/shopping-cart.svg';
 import {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 export const Header = () => {
     const [message, setMessage] = useState('');
@@ -15,8 +16,9 @@ export const Header = () => {
   return (
       <>
         <div className='header'>
-            <img  className='logo' src={logoUrl} alt="logo" />
-
+            <Link to="/">
+              <img  className='logo' src={logoUrl} alt="logo" />
+            </Link>
 
             <div className='derecha'>
 
