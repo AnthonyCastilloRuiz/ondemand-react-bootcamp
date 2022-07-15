@@ -2,6 +2,9 @@
     padding: 20px 0;
     /* text-align: center; */
     background: rgb(43, 16, 104);
+    position: fixed;
+    top: 0;
+    width: 100%
   }
 .logo {
     padding-left: 20px;
