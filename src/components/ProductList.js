@@ -7,13 +7,13 @@ export const ProductList = () => {
   let valor='';
   let [valor2,setValor2]=useState('furniture');
 
-  // const handleVal = (e) =>{
-  //     //console.log(e.target.innerText)
-  //     valor=e.target.innerText.toUpperCase();
-  //     setValor2(valor2='prueba');
-  //     console.log(valor)
-  //     console.log(valor2)
-  // }
+  const handleVal = (e) =>{
+      //console.log(e.target.innerText)
+      valor=e.target.innerText.toUpperCase();
+      setValor2(valor2='prueba');
+      console.log(valor)
+      console.log(valor2)
+  }
 
   const arrayCategories = Object.entries(product_categories);
   const categories= arrayCategories[7][1];
