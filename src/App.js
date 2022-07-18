@@ -1,5 +1,5 @@
 import './App.css';
-import {Link, Route, BrowserRouter as Router,Routes} from 'react-router-dom';
+import {Route, BrowserRouter as Router,Routes} from 'react-router-dom';
 // import { useFeaturedBanners } from './utils/hooks/useFeaturedBanners';
 
 import { Header } from './components/Header';
@@ -16,17 +16,10 @@ function App() {
         <div>
           <Router>
           <Header/>   
-
-
             <Routes>
               <Route path='/' element={<Home/>} />
               <Route path='/myproc' element={<ProductList/>} />
             </Routes>
-            <div>
-              <Link to="/myproc">
-                <button>HOLA</button>
-              </Link>
-            </div>
             <Footer/>
           </Router>
         </div>
