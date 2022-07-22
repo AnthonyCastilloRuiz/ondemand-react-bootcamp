@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.066811d1.css",
-    "main.js": "./static/js/main.aef87ae7.js",
+    "main.css": "./static/css/main.8d7b3ec0.css",
+    "main.js": "./static/js/main.54c97cae.js",
     "static/js/787.8626abe6.chunk.js": "./static/js/787.8626abe6.chunk.js",
-    "static/media/WizelineBootCamp.png": "./static/media/WizelineBootCamp.png",
-    "static/media/shopping-cart.svg": "./static/media/shopping-cart.svg",
-    "static/media/left-arrow.svg": "./static/media/left-arrow.svg",
-    "static/media/right-arrow.svg": "./static/media/right-arrow.svg",
+    "static/media/WizelineBootCamp.png": "./static/media/WizelineBootCamp.91ed9258136534205660.png",
+    "static/media/shopping-cart.svg": "./static/media/shopping-cart.7c2884865d5854dcdf37b421ce2c5e2d.svg",
+    "static/media/left-arrow.svg": "./static/media/left-arrow.53878c51904c34f1288e46174c107c57.svg",
+    "static/media/right-arrow.svg": "./static/media/right-arrow.8b8fb639d7ed68731e5b073c0700d3bf.svg",
     "index.html": "./index.html",
-    "main.066811d1.css.map": "./static/css/main.066811d1.css.map",
-    "main.aef87ae7.js.map": "./static/js/main.aef87ae7.js.map",
+    "main.8d7b3ec0.css.map": "./static/css/main.8d7b3ec0.css.map",
+    "main.54c97cae.js.map": "./static/js/main.54c97cae.js.map",
     "787.8626abe6.chunk.js.map": "./static/js/787.8626abe6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.066811d1.css",
-    "static/js/main.aef87ae7.js"
+    "static/css/main.8d7b3ec0.css",
+    "static/js/main.54c97cae.js"
   ]
 }

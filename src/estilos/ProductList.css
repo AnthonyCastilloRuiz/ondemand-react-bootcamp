@@ -1,0 +1,44 @@
+.sidebar {
+    height: auto;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+    background-color: lightblue;
+    margin-top: 93px;
+    }
+    
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.body-text {
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+.grid{
+    margin-top: 93px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 200px;
+
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .imagenTamanio{
+    width: 150px;
+    height: 150px;
+}
